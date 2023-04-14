@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@200;300&family=Roboto&family=Ubuntu:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1A1616;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #272727;
+    border-radius: 20px;
+}
+
+body{
+    font-family: poppins;
+    background-color: #1A1616;
+}
+
+.header{
+    background-image: url(./img/Autoria\ de\ música\ dos\ Beatles\ é\ descoberta\ graças\ à\ matemática\ 1.svg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 40px;
+    
+}
+
+.container {
+    gap: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    margin-right: 10px;
+}
+.text{
+    width: 50rem;
+}
+
+h1 {
+    
+    margin-left: 15px;
+    margin-top: 120px;
+    color: white;
+    margin-bottom: 11px;
+}
+
+p{
+    font-size: 25px;
+    margin-left: 15px;
+    text-align: justify;
+    color: white;
+}
+
+#songs-title{
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.song1{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 300px;
+    gap: 36rem;
+}
+
+.song1 h3{
+    margin-left: 15px;
+    color: white;
+}
+
+
+.song2{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 300px;
+    gap: 36rem;
+}
+
+.song2 h3{
+    margin-left: 15px;
+    color: white;
+}
+
+#clipe-Song{
+    margin-top: 158px;
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clipe1{
+    margin-top: 125px;
+    display: flex;
+    margin-left: 300px;
+    gap: 10rem;
+}
+
+.clipe1 h3{
+    color: white;
+}
+
+.clipe2{
+    margin-top: 125px;
+    display: flex;
+    margin-left: 300px;
+    gap: 10rem;
+}
+
+.clipe2 h3{
+    color: white;
+}
+
+footer{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
